@@ -19,8 +19,6 @@ const mapDispatchToProps = (dispatch, props) => ({
 });
 
 const HomeView = ({id, name, email, getAllUserInfo, navigation}) => {
-  // navigation.navigate('Login')
-
   useEffect(() => {
     getAllUserInfo();
   }, [getAllUserInfo]);

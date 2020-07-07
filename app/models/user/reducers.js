@@ -4,6 +4,7 @@ const initialState = {
   id: 'id1',
   name: 'Michael',
   email: 'michael@example.com',
+  accessToken: null,
 };
 
 const reducer = (state = initialState, action) => {
